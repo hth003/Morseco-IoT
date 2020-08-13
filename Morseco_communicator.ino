@@ -10,6 +10,7 @@
 
 // include the library code: 
 #include "Translator.h"
+#include "Melody.h"
 #include <LiquidCrystal.h> 
 #include "FTDebouncer.h"
 
@@ -125,6 +126,7 @@ void setup() {
 
     Serial.println();
   }
+  play_jingle();
   bot.begin();
 }
 
